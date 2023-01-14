@@ -284,3 +284,11 @@ a {
     color: #FFFFFF;
 
 }
+
+/* media quary */
+@media screen and (max-width: 576px) {
+    nav{
+        display:block;
+        flex-direction: row-reverse;
+    }
+}
