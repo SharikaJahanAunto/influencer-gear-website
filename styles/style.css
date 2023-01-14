@@ -3,7 +3,7 @@
 
 /* common elements */
 * {
-    /* margin: 0; */
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -100,6 +100,7 @@ nav {
     margin-right: 130px;
     padding: 20px;
 }
+
 .collections-title {
     margin-top: 100px;
     font-weight: 600;
@@ -161,13 +162,121 @@ nav {
     color: #FB8200;
 }
 
-p {
+.rate-number {
     font-weight: 700;
     font-size: 14px;
     color: #787885;
 }
 
 .description {
+    font-weight: 700;
+    font-size: 14px;
     margin-top: -5px;
     width: 142px;
+    color: #787885;
+
+}
+
+.see-more {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    align-items: left;
+    margin-left: 1070px;
+    width: 96px;
+    height: 24px;
+}
+
+/* third-section styles */
+.third-section {
+    height: 270px;
+    width: 1000px;
+    margin-left: 130px;
+    margin-top: 115px;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 90px;
+}
+
+.gear-pic {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.gear-description {
+    width: 610px;
+    height: 224px;
+}
+
+.gear-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    width: 610px;
+    height: 60px;
+    margin-bottom: 3px;
+}
+
+.gear-paragraph {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 501px;
+    height: 88px;
+}
+
+.gear-button {
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #FFFFFF;
+
+}
+
+/* footer styles */
+footer {
+    height: 239px;
+    background-color: #0A0826;
+    background-size: cover;
+}
+
+.footer-container {
+    width: 262px;
+    height: 139px;
+    color: #FFFFFF;
+    margin: 50px 510px;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.footer-title {
+    margin-bottom: 2px;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    color: #D9DBE1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #FFFFFF;
+
 }
