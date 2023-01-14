@@ -76,7 +76,10 @@ nav {
 }
 
 .section-container .camera {
-    background-image: url('../images/Circle\ design.svg');
+    /* background-image: url('../images/Circle\ design.svg'); */
+    background: radial-gradient(#f7f0ff 50%, #FFFFFF 50%);
+    border: 4px solid #f7f0ff;
+    border-radius: 90%;
     width: 440px;
     height: 414px;
     margin-top: 80px;
@@ -286,9 +289,22 @@ a {
 }
 
 /* media quary */
-@media screen and (max-width: 576px) {
-    nav{
-        display:block;
-        flex-direction: row-reverse;
+@media screen and (max-width: 675px) {
+    .section-container {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: auto;
+        text-align: center;
     }
+
+    .section-info {
+        width: 404px;
+        height: 222px;
+    }
+
+    .camera> img {
+        width: 80%;
+        height: 100%;
+    }
+
 }
